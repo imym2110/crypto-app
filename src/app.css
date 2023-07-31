@@ -20,11 +20,9 @@
 input::-webkit-input-placeholder {
   color: white;
 }
-
 .cryptoDisplay {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   margin: auto;
-  flex-direction: column;
   background-color: aliceblue;
 }

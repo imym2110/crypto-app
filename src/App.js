@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import s from "./style.module.css";
+import "./app.css";
 import Axios from "axios";
 import { Coin } from "./components/Coin";
 
@@ -18,10 +18,10 @@ function App() {
     return coin.name.toLowerCase().includes(search.toLowerCase());
   });
   return (
-    <div className={s.app}>
-      <div className={s.cryptoHeader}>
+    <div className="app">
+      <div className="cryptoHeader">
         <input
-          className={s.input}
+          className="input"
           type="text"
           placeholder="Search..."
           onChange={(e) => {
@@ -29,7 +29,7 @@ function App() {
           }}
         />
       </div>
-      <div className={s.cryptoDisplay}>
+      <div className="cryptoDisplay">
         {filteredCoins.map((coin) => {
           return (
             <Coin

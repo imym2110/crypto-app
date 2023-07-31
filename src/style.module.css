@@ -1,0 +1,30 @@
+.app {
+  background-color: rgb(235, 235, 235);
+}
+
+.cryptoHeader {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.input {
+  border-radius: 10px;
+  height: 45px;
+  width: 240px;
+  margin: 50px auto;
+  border: 1px solid black;
+  text-align: center;
+  background-color: rgb(59, 56, 53);
+  color: white;
+}
+input::-webkit-input-placeholder {
+  color: white;
+}
+
+.cryptoDisplay {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  background-color: aliceblue;
+}
